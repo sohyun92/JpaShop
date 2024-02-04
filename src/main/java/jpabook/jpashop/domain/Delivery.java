@@ -7,7 +7,7 @@ import java.util.List;
 
 @Entity
 @Table(name="Delivery")
-public class Delivery {
+public class Delivery extends BaseEntity{
 
     @Id @GeneratedValue
     private Long id;
